@@ -1,0 +1,51 @@
+GET http://localhost/practicephp/php-rest-api/api-fetch-all.php
+
+###
+
+POST http://localhost/practicephp/php-rest-api/api-fetch-single.php
+Content-Type: application/json
+
+{
+    "sid": "5"
+}
+
+###
+
+POST http://localhost/practicephp/php-rest-api/api-insert.php
+Content-Type: application/json
+
+{
+    "sname": "Adnan Khan",
+    "sage": 25,
+    "scity": "Sahiwal"
+}
+
+###
+
+PUT http://localhost/practicephp/php-rest-api/api-update.php
+Content-Type: application/json
+
+{
+    "sid": 1,
+    "sname": "Umer Farooq",
+    "sage": 27,
+    "scity": "Swat"
+}
+
+###
+
+DELETE http://localhost/practicephp/php-rest-api/api-delete.php
+Content-Type: application/json
+
+{
+    "sid": 6
+}
+
+###
+
+GET http://localhost/practicephp/php-rest-api/api-search.php
+Content-Type: application/json
+
+{
+    "search": "umer"
+}
